@@ -1,0 +1,20 @@
+fastapi
+uvicorn[standard]
+
+# For reading Excel files
+pandas
+openpyxl
+
+# For working with authentication tokens (if needed)
+PyJWT
+
+# For receiving file uploads
+python-multipart
+
+# Optional: for CORS support (if frontend and backend are on different domains)
+fastapi[all]
+
+# Optional: for PDF generation if handled on backend
+fpdf
+PyMuPDF
+
