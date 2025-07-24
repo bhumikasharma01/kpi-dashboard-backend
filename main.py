@@ -31,7 +31,7 @@ Base.metadata.create_all(bind=engine)
 # ✅ CORS Middleware (optional, for frontend access)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Set to frontend domain in production
+    allow_origins=["https://kpi-dashboard-frontend-lw9pbtncappdcrarder8mis.streamlit.app"],  # Set to frontend domain in production
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
