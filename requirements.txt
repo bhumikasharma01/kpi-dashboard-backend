@@ -17,4 +17,6 @@ fastapi[all]
 # Optional: for PDF generation if handled on backend
 fpdf
 PyMuPDF
+passlib[bcrypt]
+
 
