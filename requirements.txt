@@ -19,4 +19,10 @@ fpdf
 PyMuPDF
 passlib[bcrypt]
 
+python-jose
+
+sqlalchemy
+pydantic
+python-dotenv
+
 
