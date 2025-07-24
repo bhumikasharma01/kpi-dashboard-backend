@@ -21,6 +21,7 @@ passlib[bcrypt]
 
 python-jose
 reportlab
+PyPDF2
 
 sqlalchemy
 pydantic
